@@ -6,9 +6,9 @@ import requests
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 
-BOT_TOKEN = '8692849287:AAH7lYrTHX0luZCcpABoRFpY-i8ja3Gq1oY'
-API_ID = 37893084
-API_HASH = '853a6c0f3be11009f667bc153244452e'
+BOT_TOKEN = '8738805315:AAFyJQMUTplbqJzsuVFlbYfBq30wGcLlcgA'
+API_ID = 35964213
+API_HASH = '49f6f929d59ba8c565c498015a48adb1'
 
 client = TelegramClient(StringSession(), API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
